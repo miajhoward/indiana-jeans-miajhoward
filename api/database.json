@@ -5,18 +5,20 @@
       "ownsBlueJeans": false,
       "socioLocationId": 1
     },
-        {
+    {
       "id": 3,
       "ownsBlueJeans": true,
       "socioLocationId": 2
     },
-
-    
-
     {
       "ownsBlueJeans": false,
       "socioLocationId": 3,
       "id": 6
+    },
+    {
+      "ownsBlueJeans": false,
+      "socioLocationId": 4,
+      "id": 7
     }
   ],
   "socioLocations": [
@@ -37,8 +39,8 @@
       "label": "Rural"
     },
     {
-    "id": 5,
-    "label": "Metropolitan"
-}
+      "id": 5,
+      "label": "Metropolitan"
+    }
   ]
 }
