@@ -1,8 +1,8 @@
 import { saveSurveySubmission } from "./transientState.js";
 
-const handleSurveySubmission = (clickEvent) => {
+const handleSurveySubmission = async (clickEvent) => {
   if (clickEvent.target.id === "submission-button") {
-    saveSurveySubmission();
+    await saveSurveySubmission();
   }
 };
 

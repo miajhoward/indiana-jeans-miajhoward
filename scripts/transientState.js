@@ -1,6 +1,6 @@
 // Set up the transient state data structure and provide initial values
 const transientState = {
-  ownsBlueJeans: false,
+  ownsBlueJeans: null,
   socioLocationId: 0,
 };
 
@@ -15,6 +15,13 @@ export const setSocioLocationId = (chosenLocation) => {
 
 // Function to convert transient state to permanent state
 export const saveSurveySubmission = async () => {
+  if (
+    transientState.ownsBlueJeans === null ||
+    transientState.socioLocationId === 0
+  ) {
+    window.alert("Please answer both questions before submitting.");
+    return;
+  }
   const postOptions = {
     method: "POST",
     headers: {
@@ -23,8 +30,5 @@ export const saveSurveySubmission = async () => {
     body: JSON.stringify(transientState),
   };
 
-  const response = await fetch(
-    "http://localhost:8088/submissions",
-    postOptions,
-  );
+  return await fetch("http://localhost:8088/submissions", postOptions);
 };

@@ -19,6 +19,56 @@
       "ownsBlueJeans": false,
       "socioLocationId": 4,
       "id": 7
+    },
+    {
+      "ownsBlueJeans": true,
+      "socioLocationId": 2,
+      "id": 8
+    },
+    {
+      "ownsBlueJeans": false,
+      "socioLocationId": 0,
+      "id": 9
+    },
+    {
+      "ownsBlueJeans": false,
+      "socioLocationId": 0,
+      "id": 10
+    },
+    {
+      "ownsBlueJeans": true,
+      "socioLocationId": 3,
+      "id": 11
+    },
+    {
+      "ownsBlueJeans": false,
+      "socioLocationId": 1,
+      "id": 12
+    },
+    {
+      "ownsBlueJeans": false,
+      "socioLocationId": 1,
+      "id": 13
+    },
+    {
+      "ownsBlueJeans": false,
+      "socioLocationId": 1,
+      "id": 14
+    },
+    {
+      "ownsBlueJeans": false,
+      "socioLocationId": 1,
+      "id": 15
+    },
+    {
+      "ownsBlueJeans": false,
+      "socioLocationId": 1,
+      "id": 16
+    },
+    {
+      "ownsBlueJeans": false,
+      "socioLocationId": 1,
+      "id": 17
     }
   ],
   "socioLocations": [
